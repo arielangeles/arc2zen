@@ -1,5 +1,14 @@
 # Arc to Zen Browser Migration Tool
 
+> **About this fork:** it adds **[Mirror Mode](#-mirror-mode-sync_arc_to_zenpy-optional-zen-122-macos)** (`sync_arc_to_zen.py`), a one-command way to rebuild your Arc sidebar in Zen 1.22 on macOS: same tab order, folders, custom tab names, favicons, space icons and colors, Favorites as Essentials, and one container per Arc profile. Dry run by default, backups first.
+>
+> ```bash
+> python3 sync_arc_to_zen.py            # preview
+> python3 sync_arc_to_zen.py --apply    # quit Zen first
+> ```
+>
+> Everything else here is the original [rafcabezas/arc2zen](https://github.com/rafcabezas/arc2zen), which this builds on. Mirror Mode and two bug fixes are proposed upstream in [#38](https://github.com/rafcabezas/arc2zen/pull/38), [#36](https://github.com/rafcabezas/arc2zen/pull/36) and [#37](https://github.com/rafcabezas/arc2zen/pull/37).
+
 A complete Python-based migration tool that converts Arc browser spaces, pinned tabs, and open tabs into Zen browser workspaces with proper tab assignment.
 
 ## 🚀 Quick Start
